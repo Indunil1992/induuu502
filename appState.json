@@ -1,0 +1,91 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "c0b9e1e6-000e-43e7-a132-e77b01214a81": {
+        "id": "c0b9e1e6-000e-43e7-a132-e77b01214a81",
+        "parent": null,
+        "name": "induuu502.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "induuu502.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "induuu502"
+        },
+        "triggers": []
+      }
+    },
+    "openFiles": [
+      "c0b9e1e6-000e-43e7-a132-e77b01214a81"
+    ],
+    "currentFileId": "c0b9e1e6-000e-43e7-a132-e77b01214a81",
+    "resources": {
+      "s3induuuu": {
+        "name": "s3induuuu",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "induuuu"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": "CloudFormation",
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.1.6",
+    "projectName": "induuu502",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1601984002008
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "induuu502",
+      "url": "https://github.com/Indunil1992/induuu502"
+    }
+  }
+}
